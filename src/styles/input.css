@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  :root {
+    --clr-primary-green: red;
+    --clr-primary-dark: #000000;
+    --clr-primary-white: #E5E5E5;
+    --clr-primary-gray: #E5E5E5;
+    --clr-primary-red: #FF5555;
+
+    --clr-secondary-dark: #222222;
+    --clr-secondary-gray: #2D2D2D;
+  }
+
+}

@@ -1,0 +1,6 @@
+# dependencies
+node_modules
+
+# Useless files
+assets.zip
+.idea
