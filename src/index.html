@@ -5,7 +5,7 @@
     <title>Chat GPT interface</title>
     <link rel="stylesheet" href="./styles/output.css">
 </head>
-<body class="grid w-100vw h-100vh grid-cols-layout_col  bg-c-dark-100 text-c-white-100">
+<body class="grid w-100vw h-100vh grid-cols-main-col  bg-c-dark-100 text-c-white-100">
 
     <aside class="h-100vh flex flex-col justify-between border-2 p-4 border-c-gray-50 bg-c-dark-50">
 
@@ -77,43 +77,67 @@
 
     </aside>
 
-    <main class="account rounded-semi grid justify-center align-middle bg-c-dark-50 border-2 border-c-gray-50 m-3 p-3">
+    <main class="account rounded-semi grid grid-cols-c-3 grid-rows-r-3 justify-items-center items-center bg-c-dark-50 border-2 border-c-gray-50 m-3 p-3">
 
-        <div class="main-section">
+        <div class="main-section col-span-3 border justify-center border-red-300 ">
             <h1 class="main-section__title text-4xl">Welcome to ChatGPT</h1>
             <p class="main-section__desc">The power of AI at your service - Tame the knowledge !</p>
         </div>
 
-        <form action="#" class="main-section__prompt-bar">
+        <form action="#" class="main-section__prompt-bar col-span-3 border border-r-amber-300">
             <input type="search" placeholder="Example : “Explain quantum computing in simple terms”">
             <img src="./../assets/icons/send.svg" alt="Send button">
         </form>
 
-        <div class="features-container flex">
-            <div class="gpt_features">
-                <img src="" alt="">
-                <h3 class="gpt-features__title">Clear and precise</h3>
-                <p class="gpt-features__text">
-                    Pariatur sint laborum cillum aute consectetur irure.
-                </p>
-            </div>
-    
-            <div class="gpt_features">
-                <img src="" alt="">
-                <h3 class="gpt-features__title">Personalized answers</h3>
-                <p class="gpt-features__text">
-                    Pariatur sint laborum cillum aute consectetur irure.
-                </p>
-            </div>
-    
-            <div class="gpt_features">
-                <img src="" alt="">
-                <h3 class="gpt-features__title">Increased efficiency</h3>
-                <p class="gpt-features__text">
-                    Pariatur sint laborum cillum aute consectetur irure.
-                </p>
-            </div>
+        <div class="gpt_features w-13r flex gap-2 justify-center items-center flex-col">
+            <img src="./../assets/icons/upgrade.svg" class="max-w-img-width" alt="A premium icon">
+            <h3 class="gpt-features__title text-h2 font-semibold">Clear and precise</h3>
+            <p class="gpt-features__text text-center font-light">
+                Pariatur sint laborum cillum aute consectetur irure.
+            </p>
         </div>
+
+        <div class="gpt_features w-13r flex gap-2 justify-center items-center flex-col ">
+            <img src="./../assets/icons/my_location.svg" class="max-w-img-width" alt="A location icon">
+            <h3 class="gpt-features__title text-h2 font-semibold">Personalized answers</h3>
+            <p class="gpt-features__text text-center font-light">
+                Pariatur sint laborum cillum aute consectetur irure.
+            </p>
+        </div>
+
+        <div class="gpt_features w-13r flex gap-2 justify-center items-center flex-col">
+            <img src="./../assets/icons/trending_up.svg" class="max-w-img-width" alt="A trending icon">
+            <h3 class="gpt-features__title text-h2 font-semibold">Increased efficiency</h3>
+            <p class="gpt-features__text text-center font-light">
+                Pariatur sint laborum cillum aute consectetur irure.
+            </p>
+        </div>
+
+<!--        <div class="features-container col-span-3 flex">-->
+<!--            <div class="gpt_features">-->
+<!--                <img src="" alt="">-->
+<!--                <h3 class="gpt-features__title">Clear and precise</h3>-->
+<!--                <p class="gpt-features__text">-->
+<!--                    Pariatur sint laborum cillum aute consectetur irure.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--    -->
+<!--            <div class="gpt_features">-->
+<!--                <img src="" alt="">-->
+<!--                <h3 class="gpt-features__title">Personalized answers</h3>-->
+<!--                <p class="gpt-features__text">-->
+<!--                    Pariatur sint laborum cillum aute consectetur irure.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--    -->
+<!--            <div class="gpt_features">-->
+<!--                <img src="" alt="">-->
+<!--                <h3 class="gpt-features__title">Increased efficiency</h3>-->
+<!--                <p class="gpt-features__text">-->
+<!--                    Pariatur sint laborum cillum aute consectetur irure.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
 
     </main>
 

@@ -4,12 +4,15 @@ module.exports = {
     theme: {
       extend: {
         fontSize: {
-            base: '16px',
+            base: '1rem',
+            h2: '1.2rem'
           },
         spacing: {
             '100': "100%",
+            '13r': '13rem',
             '100vh': '100vh',
             '100vw': '100vw',
+            'img-width': '2rem'
           },
         colors: {
             "c-green": {
@@ -34,8 +37,14 @@ module.exports = {
         },
         gridTemplateColumns: {
             // Simple 16 row grid
-            'layout_col': '19rem 1fr',
-            'layout-row': '1fr'
+            'main-col': '19rem 1fr',
+            'main-row': '1fr',
+            'c-3': 'repeat(3, 3fr)',
+
+          },
+          gridTemplateRows: {
+            'r-3': 'repeat(3, 1fr)',
+            'r-4': 'repeat(4, 1fr)'
 
           },
           borderRadius: {
