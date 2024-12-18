@@ -9,7 +9,10 @@ module.exports = {
           },
         spacing: {
             '100': "100%",
+            '3r': '3rem',
+            '4r': '4rem',
             '13r': '13rem',
+            '48r': '56rem',
             '100vh': '100vh',
             '100vw': '100vw',
             'img-width': '2rem'
@@ -49,7 +52,8 @@ module.exports = {
           },
           borderRadius: {
             'large': '10px',
-            "semi": "16px"
+            'semi': '16px',
+            '12p': '12px'
         }
       },
     },

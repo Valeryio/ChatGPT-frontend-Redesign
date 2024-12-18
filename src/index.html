@@ -84,12 +84,15 @@
             <p class="main-section__desc">The power of AI at your service - Tame the knowledge !</p>
         </div>
 
-        <form action="#" class="main-section__prompt-bar col-span-3 border border-r-amber-300">
-            <input type="search" placeholder="Example : “Explain quantum computing in simple terms”">
-            <img src="./../assets/icons/send.svg" alt="Send button">
+        <form action="#" class="main-section__prompt-bar pl-3 pr-2 rounded-semi flex items-center w-48r h-4r col-span-3 border border-r-amber-300">
+            <input type="search" class="flex-1 rounded-semi h-100 bg-transparent outline-0" placeholder="Example : “Explain quantum computing in simple terms”">
+
+            <button class="w-3r h-3r px-1 flex bg-c-green-50 justify-center items-center border-2 border-c-green-100 rounded-12p">
+                <img src="./../assets/icons/send.svg" alt="Send button">
+            </button>
         </form>
 
-        <div class="gpt_features w-13r flex gap-2 justify-center items-center flex-col">
+        <div class="gpt_features w-13r flex gap-2 justify-center justify-self-end items-center flex-col">
             <img src="./../assets/icons/upgrade.svg" class="max-w-img-width" alt="A premium icon">
             <h3 class="gpt-features__title text-h2 font-semibold">Clear and precise</h3>
             <p class="gpt-features__text text-center font-light">
@@ -105,7 +108,7 @@
             </p>
         </div>
 
-        <div class="gpt_features w-13r flex gap-2 justify-center items-center flex-col">
+        <div class="gpt_features w-13r flex gap-2 justify-center justify-self-start items-center flex-col">
             <img src="./../assets/icons/trending_up.svg" class="max-w-img-width" alt="A trending icon">
             <h3 class="gpt-features__title text-h2 font-semibold">Increased efficiency</h3>
             <p class="gpt-features__text text-center font-light">
