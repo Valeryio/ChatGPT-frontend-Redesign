@@ -16,4 +16,8 @@
     --clr-secondary-gray: #2D2D2D;
   }
 
+  input[type = 'search']::-webkit-search-cancel-button{
+    display: none;
+  }
+
 }

@@ -5,7 +5,11 @@ module.exports = {
       extend: {
         fontSize: {
             base: '1rem',
+            h1: '3rem',
             h2: '1.2rem'
+          },
+        borderWidth: {
+            '0.25r': '.25rem'
           },
         spacing: {
             '100': "100%",
@@ -20,7 +24,8 @@ module.exports = {
         colors: {
             "c-green": {
                 100: "rgba(1, 154, 90, 1)",
-                50: "rgba(1, 154, 90, 0.8)"
+                50: "rgba(1, 154, 90, 0.8)",
+                30: "rgba(1, 154, 90, 0.3)"
             },
             "c-dark": {
                 100: "#000000",
@@ -35,7 +40,8 @@ module.exports = {
             },
             "c-white": {
                 100: "rgba(229, 229, 229, 1)",
-                40: "rgba(229, 229, 229, 0.4)"
+                40: "rgba(229, 229, 229, 0.4)",
+                50: "rgba(229, 229, 229, 0.5)"
             }
         },
         gridTemplateColumns: {
