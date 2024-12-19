@@ -20,4 +20,9 @@
     display: none;
   }
 
+  input:focus {
+    outline: 0 none;
+    border: 0 none;
+  }
+
 }
