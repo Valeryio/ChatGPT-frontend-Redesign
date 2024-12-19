@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat GPT interface</title>
+    <link rel="stylesheet" href="./src/styles/output.css">
+</head>
+<body class="grid w-100vw h-100vh grid-cols-main-col  bg-c-dark-100 text-c-white-100">
+
+    <aside class="h-100vh flex flex-col justify-between border-2 p-4 border-c-gray-50 bg-c-dark-50">
+
+        <div class="chat__infos">
+
+            <div class="account flex gap-4 p-4 bg-c-gray-50 rounded-large">
+                <img src="./assets/icons/profile_icon.svg" alt="An icon profile" class="account__profile">
+    
+                <div class="account__infos">
+                    <p class="account__name font-bold ">Linson DMT</p>
+                    <p class="account__subscription text-c-white-40">Free account</p>
+                </div>
+            </div>
+
+            <div class="chat flex gap-4 p-3 cursor-pointer">
+                <img src="./assets/icons/chat.svg" alt="Chat icon" class="chat__img">
+                <p class="chat__prompt">How to write an impacting...</p>
+            </div>
+    
+            <div class="chat flex gap-4 p-3 cursor-pointer">
+                <img src="./assets/icons/chat.svg" alt="Chat icon" class="chat__img">
+                <p class="chat__prompt">Web accessibility</p>
+            </div>
+    
+            <div class="chat flex gap-4 p-3 cursor-pointer">
+                <img src="./assets/icons/chat.svg" alt="Chat icon" class="chat__img">
+                <p class="chat__prompt">Design inspiration</p>
+            </div>
+    
+            <div class="chat flex gap-4 p-3 cursor-pointer">
+                <img src="./assets/icons/chat.svg" alt="Chat icon" class="chat__img">
+                <p class="chat__prompt">What is machine learning</p>
+            </div>
+
+            <button class="flex justify-center gap-4 w-100 p-3 mt-4 rounded-large
+            border-2 border-c-green-100 bg-c-green-50">
+                <img src="./assets/icons/add.svg" alt="Plus button">
+                Start a new chat
+            </button>
+        </div>
+
+        <div class="chat__settings">
+
+            <hr class="border border-c-gray-50">
+
+            <div class="chat flex gap-4 p-3 cursor-pointer">
+                <img src="./assets/icons/delete.svg" alt="delete icon" class="chat__img">
+                <p class="chat__prompt">Clear all conversations</p>
+            </div>
+            <div class="chat flex gap-4 p-3 cursor-pointer">
+                <img src="./assets/icons/wb_sunny.svg" alt="ligth icon" class="chat__img">
+                <p class="chat__prompt">Switch ligth mode</p>
+            </div>
+            <div class="chat flex gap-4 p-3 cursor-pointer">
+                <img src="./assets/icons/upgrade.svg" alt="pro icon" class="chat__img">
+                <p class="chat__prompt">Upgrade to GPT Pro.</p>
+            </div>
+            <div class="chat flex gap-4 p-3 cursor-pointer">
+                <img src="./assets/icons/open_in_new.svg" alt="update icon" class="chat__img">
+                <p class="chat__prompt">Updates & FAQ</p>
+            </div>
+
+            <div class="chat flex gap-4 p-3 cursor-pointer">
+                <img src="./assets/icons/power_settings_new.svg" alt="power icon" class="chat__img">
+                <p class="chat__prompt text-c-red-100">Log out</p>
+            </div>
+        </div>
+
+
+    </aside>
+
+    <main class="account rounded-semi grid grid-cols-c-3 grid-rows-r-3 justify-items-center items-center bg-c-dark-50 border-2 border-c-gray-50 m-3 p-3">
+
+        <div class="main-section flex gap-4 flex-col justify-center col-span-3 ">
+            <h1 class="main-section__title text-h1 font-semibold">Welcome to 
+                <strong class="inline-block bg-gradient-to-r from-c-green-30 from-0% via-c-green-10 via-75% to-transparent border-l-0.25r px-2 border-l-c-green-100 font-semibold">
+                    ChatGPT
+                </strong>
+            </h1>
+            <p class="main-section__desc text-center">The power of AI at your service - Tame the knowledge !</p>
+        </div>
+
+        <form action="#" class="main-section__prompt-bar bg-c-gray-50 pl-3 pr-2 rounded-semi flex items-center w-48r h-4r col-span-3 border-2 border-c-white-50">
+            <input type="search" class="flex-1 h-100 bg-transparent outline-0 placeholder-c-white-50 rounded-semi font-semibold" placeholder="Example : “Explain quantum computing in simple terms”">
+
+            <button class="w-3r h-3r px-1 flex bg-c-green-50 justify-center items-center border-2 border-c-green-100 rounded-12p">
+                <img src="./assets/icons/send.svg" alt="Send button">
+            </button>
+        </form>
+
+        <div class="gpt_features w-13r flex gap-2 justify-center justify-self-end items-center flex-col">
+            <img src="./assets/icons/upgrade.svg" class="max-w-img-width" alt="A premium icon">
+            <h3 class="gpt-features__title text-h2 font-semibold">Clear and precise</h3>
+            <p class="gpt-features__text text-center font-light">
+                Pariatur sint laborum cillum aute consectetur irure.
+            </p>
+        </div>
+
+        <div class="gpt_features w-13r flex gap-2 justify-center items-center flex-col ">
+            <img src="./assets/icons/my_location.svg" class="max-w-img-width" alt="A location icon">
+            <h3 class="gpt-features__title text-h2 font-semibold">Personalized answers</h3>
+            <p class="gpt-features__text text-center font-light">
+                Pariatur sint laborum cillum aute consectetur irure.
+            </p>
+        </div>
+
+        <div class="gpt_features w-13r flex gap-2 justify-center justify-self-start items-center flex-col">
+            <img src="./assets/icons/trending_up.svg" class="max-w-img-width" alt="A trending icon">
+            <h3 class="gpt-features__title text-h2 font-semibold">Increased efficiency</h3>
+            <p class="gpt-features__text text-center font-light">
+                Pariatur sint laborum cillum aute consectetur irure.
+            </p>
+        </div>
+    </main>
+
+</body>
+</html>
